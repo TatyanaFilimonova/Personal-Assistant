@@ -17,7 +17,7 @@ Data level		|		  |			|			|
 
 Project description
 
-Project realized CLI BOT as a personal assistant with next features:
+Project implements CLI BOT as a personal assistant with next features:
 
 Address book administration (Work telefones.json):
     Add a new contact
@@ -54,15 +54,18 @@ CLI BOT is based on a simple neural network trained on command classifiers (inte
 
 How it works:
 
-CLI BOT receives a user's input, tries to predict a command to launch and runs it if it would predict or let the commands list to a user if not.
+CLI BOT receives a user's input and tries to predict a command using neural network. BOT launch command if would predict it or let the future list to user in other case.
+During the commands execution BOT works with linear user inetrface logic and don't use AI/ML instruments.  
  
-
-To install and launch CLI BOT you have to run next set of commands from system shell:
-cd <path to folder where setup.py situated>
-py setup.py install
-BOT
+To install and launch CLI BOT please:
+- donwload distibutive *.tar 
+- unzip tar archive
+- run next set of commands from system shell:
+	cd <path to folder where setup.py situated>
+	py setup.py install
+	BOT
 CLI BOT requires a set of packages, which you could install, if necessary: 
-PIP install json
-PIP install numpy
-pip install NLTK
-pip install tensorflow
+	pip install json
+	pip install numpy
+	pip install NLTK
+	pip install tensorflow
