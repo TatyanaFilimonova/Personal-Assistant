@@ -1,0 +1,6 @@
+include *
+include Assistant/*
+include Assistant/chatbot_model.model/*
+include Assistant/chatbot_model.model/variables/*
+include Assistant/chatbot_model.model/assets/*
+
