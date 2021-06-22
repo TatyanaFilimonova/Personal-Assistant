@@ -1,0 +1,36 @@
+MANIFEST.in
+PKG-INFO
+manifest.in
+pyproject.toml
+readme.txt
+setup.cfg
+setup.py
+Assistant/Work notes.json
+Assistant/Work telephones.json
+Assistant/__init__.py
+Assistant/addressbook.py
+Assistant/classes.pkl
+Assistant/clean.py
+Assistant/core.py
+Assistant/intents.json
+Assistant/neural_code.py
+Assistant/notebook.py
+Assistant/saved_model.pb
+Assistant/training.py
+Assistant/words.pkl
+Assistant/chatbot_model.model/keras_metadata.pb
+Assistant/chatbot_model.model/saved_model.pb
+Assistant/chatbot_model.model/variables/variables.data-00000-of-00001
+Assistant/chatbot_model.model/variables/variables.index
+assistant/__init__.py
+assistant/addressbook.py
+assistant/clean.py
+assistant/core.py
+assistant/neural_code.py
+assistant/notebook.py
+assistant/training.py
+assistant.egg-info/PKG-INFO
+assistant.egg-info/SOURCES.txt
+assistant.egg-info/dependency_links.txt
+assistant.egg-info/entry_points.txt
+assistant.egg-info/top_level.txt

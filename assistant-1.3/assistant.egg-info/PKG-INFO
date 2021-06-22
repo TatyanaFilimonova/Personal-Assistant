@@ -1,0 +1,54 @@
+Metadata-Version: 1.0
+Name: assistant
+Version: 1.3
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: UNKNOWN
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: Personal Assistant
+        
+        Project structure
+        
+        
+        Code level  				core.py
+          					  |
+        			 ___________________________________________________________________________________
+        			|		  |			|			|		   |
+        		addressbook.py	   notebook.py		neural_code.py		  training.py		clean.py
+        			|		  |			|			|
+        Data level		|		  |			|			|
+        			|		  |			|	     		|
+        		Work telefones.json  Work notes.json	   words.pkl		   intents.json      
+        								|			|
+        							   classes.pkl		chatbot_model.model	   
+        
+        Project description
+        
+        Project realized CLI BOT as a personal assistant with next features:
+        
+        Address book administration (Work telefones.json):
+            Add a new contact
+            Edit the contact detail
+            Find the records by phone or name
+            Print all the records of adress book, page by page
+            Delete contact
+            Let you the contats with birthdays in specified period    
+        
+        Note book administartion (Work notes.json)
+            Find the notes by text or keywords
+            Print all the records of note book, page by page
+            Add new text note
+            Edit existing text note
+            Delete text note
+            Sort of the notes by keywords
+        
+        System maintanence        
+            Sort selected folder by file types
+            Save the current state of data to disk
+            Print a list of the available commands	
+        
+        CLI BOT based on simple neural network trained on command classifier (intents.json) 
+        
+        
+Platform: UNKNOWN
